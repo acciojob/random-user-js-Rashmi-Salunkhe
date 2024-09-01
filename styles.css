@@ -1,2 +1,58 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.user-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.additional-info {
+    margin: 20px 0;
+}
+
+.additional-info button {
+    margin: 0 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.info-display {
+    margin: 20px 0;
+}
+
+#info {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#getUser {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
